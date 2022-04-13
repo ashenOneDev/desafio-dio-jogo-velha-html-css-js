@@ -1,0 +1,59 @@
+body {
+    text-align: center;
+    background-color: #e5e8e8;
+	color: #4e545c;
+	margin: 0;
+}
+
+body.dark-mode {
+	background-color: #000401;
+	color: #e5e8e8;
+}
+
+.quadrado {
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    background: #eee;
+    display: inline-block;
+    padding: 40px;
+    font-size: 60px;
+    margin: 5px;
+    cursor: pointer;
+    color: #eee;
+}
+
+.jogador, .vencedor {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+button {
+	border-radius: 40px;
+	font-size: 20px;
+	height: 30px;
+	width: 150px;
+    margin-top: 10px;
+	background-color: #4e545c;
+	color: #e5e8e8;
+	transition: all 0.5s linear;
+}
+
+#btn-reiniciar {
+    background-color: #1a1cbd;
+    color: #dd1616;
+}
+
+button:hover {
+	background-color: #000401;
+}
+
+button.dark-mode {
+	background-color: #e5e8e8;
+	color: #4e545c;
+}
+
+button.dark-mode:hover {
+	background-color: #4e545c;
+	color: #e5e8e8;
+}
